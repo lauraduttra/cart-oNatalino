@@ -1,0 +1,66 @@
+/* Estilo Geral */
+body {
+  margin: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Container principal */
+.container {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+/* Estilo da imagem */
+.container img {
+  width: 100%;
+  max-width: 1500px;
+  border-radius: 15px;
+}
+
+/* Texto sobre a imagem */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: brown;
+  padding: 20px 30px;
+  border-radius: 10px;
+  animation: fadeIn 3s ease-in-out infinite alternate;
+}
+
+/* Título */
+.text-overlay h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: white;
+  text-shadow: 2px 2px 5px #ebe8e2;
+}
+
+/* Texto adicional */
+.text-overlay p {
+  font-size: 1.2em;
+  margin: 10px 0 0;
+  color:#ebe8e2;
+}
+
+/* Animação */
+@keyframes fadeIn {
+  from {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.8;
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1.1);
+    opacity: 1;
+  }
+}
+video{
+  margin-top: 20px;
+}
