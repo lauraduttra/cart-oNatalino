@@ -5,3 +5,5 @@ Este projeto consiste em uma página web que exibe uma mensagem de Natal acompan
 - Estruturação de conteúdo com HTML.
 - Estilização e efeitos visuais utilizando CSS.
 - Animações básicas e personalização de layout.
+
+https://github.com/user-attachments/assets/5a034793-879d-4b03-b991-8837332c2ca9
